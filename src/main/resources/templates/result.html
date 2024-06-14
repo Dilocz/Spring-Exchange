@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+</head>
+<body>
+<h2>Výsledek formuláře</h2>
+<p th:text="'From: ' + ${data.fromCurrency}"></p>
+<p th:text="'FromAmount: ' + ${data.fromAmount}"></p>
+<p th:text="'To: ' + ${data.toCurrency}"></p>
+<p th:text="'ToAmount: ' + ${data.toAmount}"></p>
+</body>
+</html>
